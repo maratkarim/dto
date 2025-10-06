@@ -12,6 +12,7 @@ import java.util.List;
 @RequiredArgsConstructor
 public class StudentService {
 
+    private String Marat;
     private String hello;
 
     private final StudentRepository studentRepository;
