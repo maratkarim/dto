@@ -12,6 +12,8 @@ import java.util.List;
 @RequiredArgsConstructor
 public class StudentService {
 
+    private String hello;
+
     private final StudentRepository studentRepository;
     private final StudentMapper studentMapper;
 
